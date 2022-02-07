@@ -1,0 +1,30 @@
+body {
+  background-image: url("../img/orange_background.jpg");
+  background-size: cover;
+}
+
+.intro {
+  background-color: rgba(255,255,255, 0.75);
+  font-family: helvetica;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+img {
+  border-style: groove;
+  border-color: black;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.labs {
+  background-color: rgba(255,255,255, 0.75);
+  font-family: helvetica;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+}
