@@ -1,0 +1,22 @@
+body {
+  background-color: cornsilk;
+}
+
+h1 {
+  font-family: limerick-serial-heavy;
+  font-size: 64px;
+}
+p {
+  font-family: limerick-serial-heavy;
+  font-size: 18px;
+  text-align: justify;
+}
+h2 {
+  font-family: limerick-serial-heavy;
+  font-size: 48px;
+}
+
+pre {
+  font-family: limerick-serial-heavy;
+  font-size: 18px;
+}
