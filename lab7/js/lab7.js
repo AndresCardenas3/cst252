@@ -13,7 +13,7 @@ function sortUserName () {
   var nameArray = userName.split('');
   console.log("nameArray =", nameArray);
   // sort the array
-  var nameArraySort = nameArray.Sort();
+  var nameArraySort = nameArray.sort();
   console.log("nameArraySort =", nameArraySort);
   // join array back to a string
   var nameSorted = nameArraySort.join('');
@@ -22,5 +22,5 @@ function sortUserName () {
 }
 
 // Output
-document.writeIn("Congraulations! name upgrade has been completed: "),
+document.writeln("Congraulations! name upgrade has been completed: ",
   sortUserName(), "</br>");
