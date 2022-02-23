@@ -1,7 +1,7 @@
 /**
 * Author: Andres Cardenas <ancardenas@csumb.edu>
 * Created: 20 Feburary
-* Liscense: Public Domain
+* License: Public Domain
 */
 
 // Define Variables
