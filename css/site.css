@@ -5,6 +5,7 @@ body {
 h1 {
   font-family: limerick-serial-heavy;
   font-size: 64px;
+  text-align: center;
 }
 p {
   font-family: limerick-serial-heavy;
