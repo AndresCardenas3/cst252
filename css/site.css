@@ -3,25 +3,25 @@ body {
 }
 
 h1 {
-  font-family: limerick-serial-heavy;
+  font-family: limerick-serial-heavy, helvetica;
   font-size: 64px;
   text-align: center;
 }
 p {
-  font-family: limerick-serial-heavy;
+  font-family: limerick-serial-heavy, helvetica;
   font-size: 18px;
   text-align: justify;
 }
 h2 {
-  font-family: limerick-serial-heavy;
+  font-family: limerick-serial-heavy, helvetica;
   font-size: 48px;
 }
 
 pre {
-  font-family: limerick-serial-heavy;
+  font-family: limerick-serial-heavy, helvetica;
   font-size: 18px;
 }
 ul {
-  font-family: limerick-serial-heavy;
+  font-family: limerick-serial-heavy, helvetica;
   font-size: 18px;
 }
