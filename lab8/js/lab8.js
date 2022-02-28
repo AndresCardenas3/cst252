@@ -14,7 +14,7 @@ function isOdd(x){
 console.log("Is 1 Odd? ", isOdd(1));
 console.log("Is 2 Odd? ", isOdd(2));
 
-array = [7, 21, 23, 30, 47, 100, 222, 444]
+array = [7, 21, 23, 30, 47, 100, 222, 444];
 console.log("My array", array);
 
 var result = array.map(isOdd);
@@ -33,5 +33,5 @@ function main() {
  // get element by id
  outputElement = document.getElementById("js-output");
  // change contents of element
- outputElement.innerHTML = "I can't get my output to display on my webpage, so I made this instead. Look in the console to see the output.";
+ outputElement.innerHTML = array.map(isOdd);
 }
