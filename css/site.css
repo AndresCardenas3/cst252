@@ -25,3 +25,10 @@ ul {
   font-family: limerick-serial-heavy, helvetica;
   font-size: 18px;
 }
+.labs a {
+  text-decoration: none;
+  color: black;
+}
+.labs a:hover {
+  color: aquamarine;
+  text-decoration: underline;
