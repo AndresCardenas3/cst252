@@ -19,7 +19,7 @@ button1.onclick = function(){
 }
 
 outputEl.appendChild(twoEl);
-twoEl.id = "button2"
+twoEl.id = "button2";
 twoEl.innerHTML = "Press Me";
 twoEl.style.color = "green";
 
