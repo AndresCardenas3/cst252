@@ -4,28 +4,17 @@
 * License: Public Domain
 */
 
-
-function reorderUserName(word) {
-    var wordArray = word.toLowerCase().split('');
-    var newArray = shuffleArray(wordArray);
-    return newArray.join('');
-
-    // find the button element
-    buttonEl = document.getElementById("my-button");
-    console.log("button element:", buttonEl);
-    // find the form element
-    inputEl = document.getElementById("user-name");
-    console.log("input element:", inputEl);
-    // find output element
-    outputEl = document.getElementById("output");
-    console.log("output element:", outputEl);
-
-    // add an event listener to button
-    buttonEl.addEventListener("click", function(){
-      // get value from name element
-      var userName = inputEl.value;
-      // modify value - either sort or shuffle
-      var newName = toTitleCase(reorderUserName(userName));
-      // put value in output element
-      outputEl.innerHTML = "<p id=name-results>" + newName + "</p>";
-  });
+function sortUserName () {
+  var userName = window.prompt("Hello! Enter your name and I will upgrade it.");
+  console.log("userName =", userName);
+  // split string to array
+  var nameArray = userName.split('');
+  console.log("nameArray =", nameArray);
+  // sort the array
+  var nameArraySort = nameArray.sort();
+  console.log("nameArraySort =", nameArraySort);
+  // join array back to a string
+  var nameSorted = nameArraySort.join('');
+  console.log("nameSorted =", nameSorted);
+  return nameSorted;
+}
