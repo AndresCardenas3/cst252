@@ -1,0 +1,38 @@
+.links {
+  background-color: black;
+  padding: 100px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-family: limerick-serial-heavy, helvetica;
+  text-align: center;
+}
+
+.links a {
+  text-decoration: none;
+  color: cornsilk;
+}
+.links a:hover {
+  color: aquamarine;
+  text-decoration: underline;
+}
+
+.home {
+    float: left;
+}
+.js {
+    float: right;
+}
+.pink {
+  color: lightPink;
+  text-align: left;
+}
+
+.blue {
+  color: paleTurquoise;
+  text-align: center;
+}
+
+.orange {
+  color: orange;
+  text-align: right;
+}
