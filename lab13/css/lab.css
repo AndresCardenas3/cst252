@@ -1,0 +1,57 @@
+.links {
+  background-color: black;
+  padding: 100px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-family: limerick-serial-heavy, helvetica;
+  text-align: center;
+}
+
+.links a {
+  text-decoration: none;
+  color: cornsilk;
+}
+.links a:hover {
+  color: aquamarine;
+  text-decoration: underline;
+}
+
+.home {
+    float: left;
+}
+.js {
+    float: right;
+}
+
+#input {
+  font-family: limerick-serial-heavy, helvetica;
+  font-size: 18px;
+  font-weight: 900;
+  padding: 10px;
+}
+
+#output {
+  font-family: limerick-serial-heavy, helvetica;
+  font-size: 18px;
+  font-weight: 900;
+  padding: 10px;
+}
+
+img {
+    float: right;
+    width: 750px;
+}
+
+#button {
+    font-family: limerick-serial-heavy, helvetica;
+    background-color: black;
+    color: cornsilk;
+    font-size: 18px;
+    font-weight: 900;
+    padding: 10px;
+}
+
+#hogwarts {
+border: dotted 5px black;
+padding: 10px 10px 10px;
+}
