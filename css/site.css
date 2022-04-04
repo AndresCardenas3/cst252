@@ -19,6 +19,11 @@ h2 {
   font-weight: 900;
   font-size: 48px;
 }
+h3 {
+  font-family: limerick-serial-heavy, helvetica;
+  font-weight: 900;
+  font-size: 30px;
+}
 
 pre {
   font-family: limerick-serial-heavy, helvetica;

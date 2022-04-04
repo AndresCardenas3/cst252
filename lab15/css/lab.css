@@ -1,0 +1,28 @@
+body {
+  background-color:lightCyan;
+}
+
+.links {
+  background-color: black;
+  padding: 100px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-family: limerick-serial-heavy, helvetica;
+  text-align: center;
+}
+
+.links a {
+  text-decoration: none;
+  color: lightCyan;
+}
+.links a:hover {
+  color: gold;
+  text-decoration: underline;
+}
+
+.home {
+    float: left;
+}
+.js {
+    float: right;
+}
