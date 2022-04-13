@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Lab 17 - Object-Oriented Design</title>
+    <link rel="stylesheet" type="text/css" href="../css/site.css">
+    <link rel="stylesheet" type="text/css" href="css/lab.css">
+    <script src="js/lab17.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  </head>
+  <body>
+    <div id="content">
+      <h1>Lab 17 - Object-Oriented Design</h1>
+      <h2>Challenge</h2>
+      <p>For this lab we needed to design an objected-oriented design for hangman.</p>
+      <h2>Problems</h2>
+      <p>I had no problems with this lab, it just took a while to make the four different elements of the object-oriented design.</p>
+      <h2>Results</h2>
+      <p>The results are below in the "OOP Design" section.</p>
+      <h3>My Family's Current Vehicles</h3>
+      <ul id="output">
+      </ul>
+      <h2>OOP Design</h2>
+      <h3>Understand the Problem</h3>
+      <ul>
+        <li>set up the game</li>
+        <li>create the gallows</li>
+        <li>generate a word</li>
+        <li>create blanks for each letter in the word</li>
+        <li>get a letter guess from player</li>
+        <li>if the letter is in the word add it anywhere it applys in the letter blanks</li>
+        <li>if the letter is not in the word add an appendage to the end of the gallows</li>
+        <li>repeat until the game ends</li>
+      </ul>
+      <h3>Pseudocode the High Level Approach</h3>
+      <p>set up the game</p>
+      <div class="subsection">
+        <p>create game board</p>
+        <p>create gallows</p>
+        <p>create man</p>
+        <p>generate word</p>
+        <p>create blanks for every letter in the word</p>
+      </div>
+      <p>start game</p>
+      <div class="subsection">
+        <p>ask player to guess a letter</p>
+        <p>input letter</p>
+        <p>if the letter is in the word add it anywhere it applys in the letter blanks</p>
+        <p>if the letter is not in the word reveal an appendage of the man</p>
+        <p>repeat until either the word is complete or the man is completley revealed</p>
+        <p>display player has won if the word was completed</p>
+        <p>display player has lost if the man was completed</p>
+      </div>
+      <h3>Assign Actions to Objects</h3>
+      <p>set up the game [game]</p>
+      <div class="subsection">
+        <p>create game board [board]</p>
+        <p>create gallows [board]</p>
+        <p>create man [man]</p>
+        <p>generate word [word]</p>
+        <p>create blanks for every letter in the word [board]</p>
+      </div>
+      <p>start game</p>
+      <div class="subsection">
+        <p>ask player to guess a letter [game]</p>
+        <p>input letter [player]</p>
+        <p>if the letter is in the word add it anywhere it applys in the letter blanks [word]</p>
+        <p>if the letter is not in the word reveal an appendage of the man [man]</p>
+        <p>repeat until either the word is complete or the man is completley revealed [player]</p>
+        <p>display player has won if the word was completed [game]</p>
+        <p>display player has lost if the man was completed [game]</p>
+      </div>
+      <h3>Make Javascript-ish Psuedocode</h3>
+      <p>// controls the gameplay</p>
+      <p>class Hangman</p>
+        <div class="sub1">
+        <p>// initialize<p>
+        </div>
+            <div class="sub2">
+            <p>// create game board</p>
+            <p>// create gallows</p>
+            <p>// create man</p>
+            <p>// generate word</p>
+            <p>// create blanks for every letter in the word</p>
+            </div>
+
+        <div class="sub1">
+        <p>// play</p>
+        </div>
+            <div class="sub2">
+            <p>// render board, gallows, and letter blanks</p>
+            <p>// ask player to input letter</p>
+            <p>// put letter in blank if applicaple<p>
+            <p>// reveal appendage of man if letter is not in word</p>
+            </div>
+
+        <div class="sub1">
+        <p>// check game over</p>
+        </div>
+            <div class="sub2">
+            <p>// loop until word is completed or man is completed</p>
+            </div>
+        <div class="sub1">
+        <p>// check victory</p>
+        </div>
+            <div class="sub2">
+            <p>// if the word is completed the player has won</p>
+            </div>
+              <div class="sub3">
+              <p>// display winning message</p>
+              </div>
+            <div class="sub2">
+            <p>// if the man is completed the player has lost</p>
+            </div>
+              <div class="sub3">
+              <p>// display losing message</p>
+              </div>
+    </div>
+    <div class="links">
+      <div class="home">
+        <li><a href="../index.html">Back to Home</a></li>
+      </div>
+      <div class="js">
+        <li><a href="js/lab17.js">JavaScript Source</a></li>
+      </div>
+    </div>
+  </html>

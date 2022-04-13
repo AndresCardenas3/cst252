@@ -1,0 +1,40 @@
+.subsection {
+  text-indent: 50px;
+}
+
+.sub1 {
+  text-indent: 50px;
+}
+
+.sub2 {
+  text-indent: 100px;
+}
+
+.sub3 {
+  text-indent: 150px;
+}
+
+.links {
+  background-color: black;
+  padding: 100px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-family: limerick-serial-heavy, helvetica;
+  text-align: center;
+}
+
+.links a {
+  text-decoration: none;
+  color: cornsilk;
+}
+.links a:hover {
+  color: cyan;
+  text-decoration: underline;
+}
+
+.home {
+    float: left;
+}
+.js {
+    float: right;
+}
